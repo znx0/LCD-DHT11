@@ -4,7 +4,6 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 
 ## Features
 - Real-time temperature and humidity readings
-- Multiple screens (current, average, min, max) via push button
 - Reset statistics via push button
 
 ## Hardware
@@ -17,21 +16,17 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 
 ### 1. DHT11 Sensor
 
-<table>
-  <tr>
-    <td><img src="images/montagemDHT11.png" width=5300"/></td>
-    <td><img src="images/DHT11.jpg" width="150"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/montagemDHT11.png" width="300"/>
+  <img src="images/DHT11.jpg" width="300"/>
+</p>
 
 ### 2.Push Buttons
 
-<table>
-  <tr>
-    <td><img src="images/montagemButton.png" width="500"/></td>
-    <td><img src="images/Button.png" width="200"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/montagemButton.png" width="300"/>
+  <img src="images/Button.png" width="300"/>
+</p>
 
 ### 3. LCD Display 
 
