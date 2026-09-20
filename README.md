@@ -28,16 +28,15 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 ### 3. LCD Display 
 
 [LCD Wiring](images/LCD.png)
--------------------------------------------------------
-LCD         Arduino     LCD       Arduino
--------------------------------------------------------
-RS          Digital 12  RW        GND
-Enable (E)  Digital 11  VSS       GND
-D4          Digital 5   VCC       5V
-D5          Digital 4   LED+ (A)  5V (220Ω)
-D6          Digital 3   LED- (K)  GND
-D7          Digital 2   Vo        Potentiometer Output
--------------------------------------------------------
+
+| LCD         | Arduino    | LCD        | Arduino               |
+|-------------|------------|------------|-----------------------|
+| RS          | Digital 12 | RW         | GND                   |
+| Enable (E)  | Digital 11 | VSS        | GND                   |
+| D4          | Digital 5  | VCC        | 5V                    |
+| D5          | Digital 4  | LED+ (A)   | 5V (220Ω)             |
+| D6          | Digital 3  | LED- (K)   | GND                   |
+| D7          | Digital 2  | Vo         | Potentiometer Output  |
 
 ### Final Assembly (Demo)
 
