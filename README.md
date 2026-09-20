@@ -12,23 +12,26 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 - 16x2 LCD display
 - 2x push buttons
 
-## Wiring
+## Hardware Setup
 
-### 1. [DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
+I'll show you how to setup every single circuit isolated, so it's easy to follow along and to assemble the full setup.
+After that you just need to put put them all togheter in the breadboard and edit the code with the pins you've used.
+
+###  [DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
 
 <p align="center">
   <img src="images/montagemDHT11.png" width="460"/>
   <img src="images/DHT11.jpg" width="180"/>
 </p>
 
-### 2. [Push Buttons](https://components101.com/switches/push-button)
+### [Push Buttons](https://components101.com/switches/push-button)
 
 <p align="center">
   <img src="images/montagemButton.png" width="400"/>
   <img src="images/Button.png" width="300"/>
 </p>
 
-### 3. [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
+### [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
 
 <p align="center">
   <img src="images/LDC.png" width="600"/>
