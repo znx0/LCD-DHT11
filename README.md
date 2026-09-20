@@ -39,7 +39,8 @@ Verifies digital input reading and pull-up/pull-down resistor logic.
 
 ### [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
 
-Initializes the display, verifies backlight illumination, and renders test characters to ensure proper wiring and contrast.
+Initializes the display, renders 'Hello World' to test characters to ensure proper wiring and contrast.
+If needed, you can rotate the potentiometer to adjust the brightness of the screen.
 * **Test Script:** [`tests/lcd_test.ino`](./tests/lcd_test.ino)
 
 <p align="center">
