@@ -8,28 +8,40 @@ Arduino-based environmental monitoring solution designed to track indoor climate
 - Efficient Polling Cycle: Optimized code logic to prevent sensor heating and ensure accurate readings without blocking execution loops.
 
 ## Hardware
-- Arduino Uno/Nano
-- DHT11 sensor
-- 16x2 LCD display
-- 2x push buttons
+- **Microcontroller:** Arduino (Uno, Nano or compatible)
+- **Sensor:** DHT11 Temperature & Humidity Sensor
+- **Display:** 16x2 LCD Module
+- **Control:** Push Button (for mode toggle/Reset) & Potenciometer (LCD brightness)
 
-## Hardware Setup
-I'll show you how to setup every single circuit isolated, so it's easy to follow along and to assemble the full setup.
-After that you just need to put put them all togheter in the breadboard and edit the code with the pins you've used.
+## 🔬 Testing Components Separately
+
+Before assembling the full system, it is recommended to test each component individually using the standalone test scripts located in the [`tests/`](./tests) directory. This ensures all modules, pins, and wiring are functioning correctly.
 
 ###  [DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
+
+Reads ambient data and outputs temperature (°C) and humidity (%) directly to the Serial Monitor.
+* **Test Script:** [`tests/dht11_test.ino`](./tests/dht11_test.ino)
+
 <p align="center">
   <img src="images/montagemDHT11.png" width="460"/>
   <img src="images/DHT11.jpg" width="180"/>
 </p>
 
 ### [Push Buttons](https://components101.com/switches/push-button)
+
+Verifies digital input reading and pull-up/pull-down resistor logic.
+* **Test Script:** [`tests/button_test.ino`](./tests/button_test.ino)
+
 <p align="center">
   <img src="images/montagemButton.png" width="400"/>
   <img src="images/Button.png" width="300"/>
 </p>
 
 ### [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
+
+Initializes the display, verifies backlight illumination, and renders test characters to ensure proper wiring and contrast.
+* **Test Script:** [`tests/lcd_test.ino`](./tests/lcd_test.ino)
+
 <p align="center">
   <img src="images/LDC.png" width="600"/>
 </p>
@@ -44,6 +56,12 @@ After that you just need to put put them all togheter in the breadboard and edit
 | D7          | Digital 2  | Vo         | Potentiometer Output  |
 
 ### Final Assembly ([Demo](images/IMG_7684.mp4))
+
+1. Follow the test steps above to validate all individual components.
+2. Assemble all hardware components onto your main breadboard.
+3. Open the main firmware sketch in `src/` (or your root project folder).
+4. Update the pin mappings in the code if your wiring differs:
+
 <p align="center">
   <img src="images/IM1.jpg" width="500"/>
   
