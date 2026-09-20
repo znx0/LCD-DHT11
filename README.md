@@ -46,7 +46,7 @@ After that you just need to put put them all togheter in the breadboard and edit
 | D6          | Digital 3  | LED- (K)   | GND                   |
 | D7          | Digital 2  | Vo         | Potentiometer Output  |
 
-### Final Assembly (Demo)
+### Final Assembly ([Demo](images/IMG_7684.mp4))
 
 <p align="center">
   <img src="images/IM1.jpg" width="500"/>
