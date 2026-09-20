@@ -1,3 +1,15 @@
+
+
+https://github.com/user-attachments/assets/910d73c4-8d81-44b9-86cb-6b37694fe068
+
+
+
+https://github.com/user-attachments/assets/c50277e0-e9d5-436e-87be-4aeea8181c0d
+
+
+
+https://github.com/user-attachments/assets/131c299c-a692-46e8-a27a-be6d3c95b56f
+
 # LCD Temperature & Humidity Reader
 
 Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 LCD display.
@@ -46,4 +58,4 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 ![Complete Setup](images/IM1.jpg)
 ![Complete Setup](images/IM2.jpg)
 ![Complete Setup](images/IM3.jpg)
-
+https://github.com/user-attachments/assets/50a3fee2-ee35-47b4-8479-7e4c09e354ed
