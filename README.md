@@ -1,10 +1,12 @@
-# LCD Temperature & Humidity Reader
+# Embedded Environmental Monitor (LCD / DHT)
 
-Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 LCD display.
+Arduino-based environmental monitoring solution designed to track indoor climate metrics in real time. By interfacing a DHT11 sensor with a 16x2 LCD display, the system processes live temperature and humidity telemetry directly on the microcontroller, providing clear and instantaneous visual output.
 
 ## Features
 - Real-time temperature and humidity readings
 - Reset statistics via push button
+- Modular Hardware Architecture: Circuit design and pin mapping structured for quick testing, hardware isolation, and easy component swapping.
+- Efficient Polling Cycle: Optimized code logic to prevent sensor heating and ensure accurate readings without blocking execution loops.
 
 ## Hardware
 - Arduino Uno/Nano
