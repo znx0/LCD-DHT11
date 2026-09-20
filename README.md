@@ -30,7 +30,9 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 
 ### 3. LCD Display 
 
-![LCD Wiring](images/LDC.png)
+<p align="center">
+  <img src="images/LDC.png" width="400"/>
+</p>
 
 | LCD         | Arduino    | LCD        | Arduino               |
 |-------------|------------|------------|-----------------------|
@@ -43,7 +45,8 @@ Arduino-based temperature and humidity monitor using a DHT11 sensor and a 16x2 L
 
 ### Final Assembly (Demo)
 
-![Complete Setup](images/IM1.jpg)
-![Complete Setup](images/IM2.jpg)
-![Complete Setup](images/IM3.jpg)
-
+<p align="center">
+  <img src="images/IM1.jpg" width="300"/>
+  <img src="images/IM2.jpg" width="300"/>
+  <img src="images/IM3.jpg" width="300"/>
+</p>
