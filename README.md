@@ -80,7 +80,13 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 <p align="center">
   <img src="images/IM1.jpg" width="500"/>
 </p>
+```
 
 ## 🎥 Demonstration
 
+Watch the system reading real-time climate data and updating the LCD output:
+
 https://github.com/user-attachments/assets/131c299c-a692-46e8-a27a-be6d3c95b56f
+
+* **Real-time Telemetry:** The LCD continuously displays live temperature (°C) and humidity (%) from the DHT11 sensor.
+* **Mode Switch:** Pressing the button toggles the display mode and reseting the LCD.
