@@ -79,7 +79,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 ```
 
 <p align="center">
-  <img src="images/IM1.jpg" width="500"/>
+  <img src="images/IM1.jpg" width="700"/>
 </p>
 
 ## 🎥 Demonstration
