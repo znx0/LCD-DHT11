@@ -9,9 +9,9 @@
 Arduino-based environmental monitoring solution designed to track indoor climate metrics in real time. By interfacing a DHT11 sensor with a 16x2 LCD display, the system processes live temperature and humidity telemetry directly on the microcontroller, providing clear and instantaneous visual output.
 
 ## Features
-- Real-Time Telemetry: Instant continuous updates for ambient temperature (°C) and relative humidity (%).
-- Modular Hardware Architecture: Circuit design and pin mapping structured for quick testing, hardware isolation, and easy component swapping.
-- Efficient Polling Cycle: Optimized code logic to prevent sensor heating and ensure accurate readings without blocking execution loops.
+- **Real-Time Telemetry:** Instant continuous updates for ambient temperature (°C) and relative humidity (%).
+- **Modular Hardware Architecture:** Circuit design and pin mapping structured for quick testing, hardware isolation, and easy component swapping.
+- **Efficient Polling Cycle:** Optimized code logic to prevent sensor heating and ensure accurate readings without blocking execution loops.
 
 ## Hardware
 - **🧠 Microcontroller:** Arduino (Uno, Nano or compatible)
@@ -76,11 +76,11 @@ Once all standalone tests pass, assemble the full circuit on your main breadboar
 #define DHTPIN 2
 #define BUTTON_PIN 3
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+```
 
 <p align="center">
   <img src="images/IM1.jpg" width="500"/>
 </p>
-```
 
 ## 🎥 Demonstration
 
