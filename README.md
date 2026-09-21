@@ -19,6 +19,22 @@ Arduino-based environmental monitoring solution designed to track indoor climate
 - **🖥️ Display:** 16x2 LCD Module
 - **🔘 Control:** Push Button (for mode toggle/Reset) & Potentiometer (LCD brightness)
 
+## Getting Started
+
+### Option A - Arduino IDE (Recommended)
+1. Clone this repository:
+	```bash
+	git clone [https://github.com/znx0/lcd-dht11.git](https://github.com/znx0/lcd-dht11.git)
+	cd lcd-dht11
+	```
+2. Open the main sketch lcd-dht11.ino (the .ino file in the root folder) in the Arduino IDE
+
+3. Install required libraries via **Tools -> Manage Libraries:**
+
+- DHT sensor
+- LiqiudCrystal
+
+4. Dont Forget to select your Board and Port, without it you'll receive a error message and you wont be able to Upload the code.
 ## 🔬 Testing Components Separately
 
 Before assembling the full system, it is recommended to test each component individually using the standalone test scripts located in the [`tests/`](./tests) directory. This ensures all modules, pins, and wiring are functioning correctly.
@@ -69,7 +85,7 @@ Once all standalone tests pass, assemble the full circuit on your main breadboar
 ### Assembly Steps
 1. **Validate Components:** Ensure all modules passed the individual tests in `tests/`.
 2. **Breadboard Wiring:** Connect the Arduino, DHT11, 16x2 LCD, potentiometer, and push button according to your pin mapping.
-3. **Configure Pinout:** Open the main firmware (`src/main.ino`) and adjust the pin definitions if your hardware layout differs:
+3. **Configure Pinout:** Open the main firmware (`lcd-dht11.ino`) and adjust the pin definitions if your hardware layout differs:
 
 ```cpp
 // Default Pin Configuration
