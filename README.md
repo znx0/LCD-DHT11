@@ -8,16 +8,16 @@ Arduino-based environmental monitoring solution designed to track indoor climate
 - Efficient Polling Cycle: Optimized code logic to prevent sensor heating and ensure accurate readings without blocking execution loops.
 
 ## Hardware
-- **Microcontroller:** Arduino (Uno, Nano or compatible)
-- **Sensor:** DHT11 Temperature & Humidity Sensor
-- **Display:** 16x2 LCD Module
-- **Control:** Push Button (for mode toggle/Reset) & Potenciometer (LCD brightness)
+- **🧠 Microcontroller:** Arduino (Uno, Nano or compatible)
+- **🌡️ Sensor:** DHT11 Temperature & Humidity Sensor
+- **🖥️ Display:** 16x2 LCD Module
+- **🔘 Control:** Push Button (for mode toggle/Reset) & Potenciometer (LCD brightness)
 
 ## 🔬 Testing Components Separately
 
 Before assembling the full system, it is recommended to test each component individually using the standalone test scripts located in the [`tests/`](./tests) directory. This ensures all modules, pins, and wiring are functioning correctly.
 
-###  [DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
+###  [🌡️ DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
 
 Reads ambient data and outputs temperature (°C) and humidity (%) directly to the Serial Monitor.
 * **Test Script:** [`tests/dht11_test.ino`](./tests/dht11_test.ino)
@@ -27,7 +27,7 @@ Reads ambient data and outputs temperature (°C) and humidity (%) directly to th
   <img src="images/DHT11.jpg" width="180"/>
 </p>
 
-### [Push Buttons](https://components101.com/switches/push-button)
+### [🔘 Push Buttons](https://components101.com/switches/push-button)
 
 Verifies digital input reading and pull-up/pull-down resistor logic.
 * **Test Script:** [`tests/button_test.ino`](./tests/button_test.ino)
@@ -37,7 +37,7 @@ Verifies digital input reading and pull-up/pull-down resistor logic.
   <img src="images/Button.png" width="300"/>
 </p>
 
-### [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
+### [🖥️ LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
 
 Initializes the display, renders 'Hello World' to test characters to ensure proper wiring and contrast.
 If needed, you can rotate the potentiometer to adjust the brightness of the screen.
