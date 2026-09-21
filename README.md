@@ -19,28 +19,31 @@ Arduino-based environmental monitoring solution designed to track indoor climate
 - **🖥️ Display:** 16x2 LCD Module
 - **🔘 Control:** Push Button (for mode toggle/Reset) & Potentiometer (LCD brightness)
 
-## Getting Started
+## 🚀 Getting Started
 
-### Option A - Arduino IDE (Recommended)
+### Quick Start with Arduino IDE
 1. Clone this repository:
 	```bash
 	git clone [https://github.com/znx0/lcd-dht11.git](https://github.com/znx0/lcd-dht11.git)
 	cd lcd-dht11
 	```
+
 2. Open the main sketch lcd-dht11.ino (the .ino file in the root folder) in the Arduino IDE
 
 3. Install required libraries via **Tools -> Manage Libraries:**
 
-- DHT sensor
-- LiqiudCrystal
+- DHT sensor by
+- LiquiddCrystal
 
-4. Dont Forget to select your Board and Port, without it you'll receive a error message and you wont be able to Upload the code.
+4. Select you board (e.g., Arduino Uno/Nano) and serial port under **Tools**,
+
+5. Click **Upload** to flash the firmware to your microcontroller
+
 ## 🔬 Testing Components Separately
-
-Before assembling the full system, it is recommended to test each component individually using the standalone test scripts located in the [`tests/`](./tests) directory. This ensures all modules, pins, and wiring are functioning correctly.
+Before assembling the full system, it is recommended to test each component individually using the standalone test scripts located in the [`tests/`](./tests) directory.
+ This ensures all modules, pins, and wiring are functioning correctly.
 
 ### 🌡️ [DHT11 Sensor](https://components101.com/sites/default/files/component_datasheet/DFR0067%20DHT11%20Datasheet.pdf)
-
 Reads ambient data and outputs temperature (°C) and humidity (%) directly to the Serial Monitor.
 * **Test Script:** [`tests/dht11_test.ino`](./tests/dht11_test.ino)
 
@@ -50,7 +53,6 @@ Reads ambient data and outputs temperature (°C) and humidity (%) directly to th
 </p>
 
 ### 🔘 [Push Buttons](https://components101.com/switches/push-button)
-
 Verifies digital input reading and pull-up/pull-down resistor logic.
 * **Test Script:** [`tests/button_test.ino`](./tests/button_test.ino)
 
@@ -60,7 +62,6 @@ Verifies digital input reading and pull-up/pull-down resistor logic.
 </p>
 
 ### 🖥️  [LCD Display](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
-
 Initializes the display, renders 'Hello World' to test characters to ensure proper wiring and contrast.
 If needed, you can rotate the potentiometer to adjust the brightness of the screen.
 * **Test Script:** [`tests/lcd_test.ino`](./tests/lcd_test.ino)
@@ -79,7 +80,6 @@ If needed, you can rotate the potentiometer to adjust the brightness of the scre
 | D7          | Digital 2  | Vo         | Potentiometer Output  |
 
 ## 🛠️ Final Assembly & Demonstration
-
 Once all standalone tests pass, assemble the full circuit on your main breadboard following the layout below.
 
 ### Assembly Steps
@@ -99,7 +99,6 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 </p>
 
 ## 🎥 Demonstration
-
 Watch the system reading real-time climate data and updating the LCD output:
 
 https://github.com/user-attachments/assets/131c299c-a692-46e8-a27a-be6d3c95b56f
